@@ -9,11 +9,11 @@ Contar con internet.
 
 ### Selecciona tu sistema operativo.
 
-[Windows](###Instalación-en-Windows)
+[Windows](#Instalación-en-Windows)
 
-[MacOs](###Instalación-en-MacOS)
+[MacOs](#Instalación-en-MacOS)
 
-[Linux](###Instalación-en-Linux)
+[Linux](#Instalación-en-Linux)
 
 ### Instalación en Windows
 
