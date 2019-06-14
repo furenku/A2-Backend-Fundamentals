@@ -1,5 +1,5 @@
-`Fullstack con Python` > [`Backend Fundamentals`](../Readme.md) > `Sesión 05`
-## Fundamentos de bases de datos relacionales 
+[`Backend Fundamentals`](../Readme.md) > `Sesión 05`
+## Fundamentos de bases de datos relacionales
 
 ### OBJETIVOS
  - Conocer el proceso para modelar una base de datos relacinal.
