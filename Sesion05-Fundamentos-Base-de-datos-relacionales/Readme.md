@@ -13,8 +13,9 @@
  - Definiendo una relación uno a muchos
    - [Ejemplo 02](Ejemplo-02)
    - [Reto 02](Reto-02)
- - Operación CREATE: Agregando datos con Python y MariaDB
-   - [Proyecto](Proyecto)
+ - Definiendo una relación muchos a muchos
+   - [Ejemplo 03](Ejemplo-03)
+   - [Reto 03](Reto-03)
 
 ### POSTWORK
  - Aplicar los conceptos de la clase a tú Proyecto

@@ -1,4 +1,4 @@
-`Fullstack con Python` > [`Backend con Python`](../../Readme.md) > [`Sesión 06`](../Readme.md) > Reto-02
+[`Backend Fundamentals`](../../Readme.md) > [`Sesión 05`](../Readme.md) > Reto-02
 ## Definiendo una relación uno a muchos
 
 ### OBJETIVO
@@ -29,7 +29,7 @@ Dados los requerimientos del proyecto __BeduTravels__ y sus tablas obtener un di
 
    __Respuesta__
 
-   Un Lugar está relacionado con ??? Viajes
+   Un Lugar está relacionado con 0, 1, 2 o más Viajes ![Solución](assets/relaciones-1-muchos-02.jpg)   
 
    __Pregunta__
 
@@ -37,7 +37,7 @@ Dados los requerimientos del proyecto __BeduTravels__ y sus tablas obtener un di
 
    __Respuesta__
 
-   Un Viaje está relacionado con ??? Lugares.
+   Un Viaje está relacionado con exactamente dos Lugares. ![Solución](assets/relaciones-1-muchos-04.jpg)
    ***
 
 1. Definir la relación entre ambas tablas
@@ -50,9 +50,9 @@ Dados los requerimientos del proyecto __BeduTravels__ y sus tablas obtener un di
 
    __Respuesta__
 
-   Es una relación de ??? a ??? y en la notación __pata de gallo__ se representa de la siguiente forma:
+   Es una relación de dos a cero o muchos y en la notación __pata de gallo__ se representa de la siguiente forma:
 
-   ![Diagrama del modelo entidad-relación](modelo-entidad-relacion.jpg)
+   ![Solución](modelo-entidad-relacion.jpg)
 
    Además en la tabla con cardinalidad muchos, los campos de __origen__ y __destino__ se convierten en llaves foráneas (FK) __idOrigen__ y __idDestino__.
    ***
