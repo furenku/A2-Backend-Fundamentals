@@ -2,7 +2,7 @@
 ## Fundamentos de bases de datos relacionales
 
 ### OBJETIVOS
- - Conocer el proceso para modelar una base de datos relacinal.
+ - Conocer el proceso para modelar una base de datos relacional.
  - Conocer el proceso para definir tablas y sus atributos.
 
 ### ORGANIZACIÓN DE CLASE
