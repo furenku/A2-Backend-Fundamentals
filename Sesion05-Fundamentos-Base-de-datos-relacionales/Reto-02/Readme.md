@@ -1,4 +1,4 @@
-`Fullstack con Python` > [`Backend con Python`](../../Readme.md) > [`Sesión 06`](../Readme.md) > Reto-02
+[`Backend Fundamentals`](../../Readme.md) > [`Sesión 05`](../Readme.md) > Reto-02
 ## Definiendo una relación uno a muchos
 
 ### OBJETIVO
