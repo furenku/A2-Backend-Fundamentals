@@ -4,6 +4,8 @@
 ### OBJETIVOS
  - Conocer el proceso para modelar una base de datos relacional.
  - Conocer el proceso para definir tablas y sus atributos.
+ - Conocer el proceso para encontrar las relaciones entre tablas
+ - Conocer el proceso para normalizar un modelo entidad-relación
 
 ### ORGANIZACIÓN DE CLASE
 
@@ -16,6 +18,8 @@
  - Definiendo una relación muchos a muchos
    - [Ejemplo 03](Ejemplo-03)
    - [Reto 03](Reto-03)
+ - Actualizando el modelo entidad-relación con nuevos requerimientos
+   - [Proyecto](Proyecto)
 
 ### POSTWORK
  - Aplicar los conceptos de la clase a tú Proyecto
