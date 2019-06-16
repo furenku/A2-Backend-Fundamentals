@@ -22,5 +22,5 @@
    - [Proyecto](Proyecto)
 
 ### POSTWORK
- - Aplicar los conceptos de la clase a tú Proyecto
+ - Obtener el diagrama del modelo entidad-relación normalizado para proyecto personal.
    - [Ver lineamientos](Postwork)
