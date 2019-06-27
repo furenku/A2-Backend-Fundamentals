@@ -15,12 +15,4 @@ Conocer los comandos que nos proporcionaran ayuda de otros comandos.
        b. pwd  
        c. ls
 
-### Solución
-
-```  
-$ man id
-$ man pwd
-$ man ls
-```
-
 **Nota**: Este reto tiene una duración 5 minutos o menos.

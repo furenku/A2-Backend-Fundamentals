@@ -14,9 +14,4 @@
 
 1. Sincroniza la carpeta con una carpeta llamada Bedu + (nombre de tu curso), la carpeta deberá vivir dentro del root del contenedor.
 
-## Solución 
-```
-$ mkdir Bedu
-$ docker run --name BeduFullstack -it -v "$(pwd)":/root/BeduFullstack ubuntu
-```
 
