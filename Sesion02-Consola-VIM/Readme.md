@@ -4,8 +4,7 @@
  - Conocer los comandos de ayuda de la terminal.
  - Conocer los comandos de administración de archivos de la terminal.
  - Conocer los comandos de permisos de la terminal.
- - Conocer los comandos del editor VIM.
-
+ - Conocer los comandos del editor VIM. 
 
 ### ORGANIZACIÓN DE CLASE
 - Comandos de ayuda
