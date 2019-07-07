@@ -6,7 +6,8 @@ Comprobar la existencia de llaves ssh en la carpeta predeterminada `~/.ssh`.
 
 #### REQUISITOS
 
-Contar con una terminal.
+- Tener un Sistema Operativo Linux basado en Debian: Ubuntu o Linux Mint
+- Contar con una terminal.
 
 ### DESARROLLO
 1. Entrar a la carpeta `~/.ssh`
@@ -19,6 +20,6 @@ cd ~/.ssh
 ls 
 ```
 
-3. Si existe alguna llave aparecerá en par <llave> y <llave>.pub
+3. Si existe alguna llave aparecerá en par `<llave>` y `<llave>.pub`
 
 _Nota_ Es posible tener varias llaves privadas para una misma computadora
