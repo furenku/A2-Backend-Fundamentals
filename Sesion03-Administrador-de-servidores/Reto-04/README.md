@@ -1,24 +1,15 @@
 ##### Reto 03
-## Comprovación de existencia de llaves SHH
+## Crear un repositorio y hacer push usando la configuración SSH
 
 ### OBJETIVO
-Comprobar la existencia de llaves ssh en la carpeta predeterminada `~/.ssh`.
+Verificar que se ha agregado correctamente nuestra llave pública a nuestra cuenta de Github
 
 #### REQUISITOS
 
-Contar con una terminal.
+- Contar con una par de llaves SSH.
+- Tener una cuenta de Github
+- Haber agregado la llave pública a nuestra cuenta de Github.
+
 
 ### DESARROLLO
-1. Entrar a la carpeta `~/.ssh`
-```
-cd ~/.ssh
-```
-
-2. Mostrar el contendo de la carpeta
-```
-ls 
-```
-
-3. Si existe alguna llave aparecerá en par <llave> y <llave>.pub
-
-_Nota_ Es posible tener varias llaves privadas para una misma computadora
+1. 

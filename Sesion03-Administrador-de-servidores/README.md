@@ -25,7 +25,9 @@ Que el alummno entienda el concepto, el valor y los comandos para utilizar el ma
 
 [Reto 3: Agregar nuestra llave pública a nuestra cuenta de Github](./Reto-03)
 
-[Reto 4: Clonar un repositorio utilizando la opción SSH](./Reto-04)
+[Reto 4: Crear un repositorio y hacer push usando la configuración SSH](./Reto-04)
+
+Para configurar un servidor a que nos permita hacer autenticación utilizando nuestras llaves SSH es necesario copiar y pegar nuestra llave pública dentro del archivo `~/.ssh/authorized_keys` dentro del servidor. Primero hay que ingresar utilizando usuario y password.
 
 #### Manejadores de paquetes
 
