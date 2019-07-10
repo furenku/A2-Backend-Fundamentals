@@ -1,3 +1,5 @@
+[<-- Rergresar](../)
+
 ## Diagrama de Flujo de Interaccion
 
-![](../assests/diagrama-flujo-bedu-travels.jpg)
+![](../assets/diagrama-flujo-bedu-travels.jpg)

@@ -1,3 +1,5 @@
+[<-- Rergresar](../)
+
 ## Historias de usario de la aplicación Bedu Travels
 
 ```
