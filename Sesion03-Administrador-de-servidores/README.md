@@ -16,9 +16,9 @@ Que el alummno entienda el concepto, el valor y los comandos para utilizar el ma
 
 **SSH** (Secure Shell): Es una herramienta que nos permite abrir una conexión segura y encriptada con otra computadora (o servidor) por medio de una llave pública y una llave privada, permitiendo así autenticar un ingreso (login), correr comandos, recibir respuestas o copiar archivos. 
 
-[Ejemplo 1: Verificar que tenemos ssh instalado](./Ejemplo-01)
+[Ejercicio 1: Verificar que tenemos ssh instalado](./Ejercicio-01)
 
-[Ejemplo 2: Buscar si tenemos llaves dentro de la carpeta `~/.ssh`](./Ejemplo-02)
+[Ejercicio 2: Buscar si tenemos llaves dentro de la carpeta `~/.ssh`](./Ejercicio-02)
 
 [Reto 1: Crea una nueva llave shh](./Reto-01)
 
@@ -28,7 +28,7 @@ Que el alummno entienda el concepto, el valor y los comandos para utilizar el ma
 
 [Reto 4: Crear un repositorio y hacer push usando la configuración SSH](./Reto-04)
 
-Para configurar un servidor a que nos permita hacer autenticación utilizando nuestras llaves SSH es necesario copiar y pegar nuestra llave pública dentro del archivo `~/.ssh/authorized_keys` dentro del servidor. Primero hay que ingresar utilizando usuario y password.
+Para configurar un servidor a que nos permita hacer autenticación utilizando nuestras llaves SSH es necesario, ingresar al servidor utilizando usuario y password, luego copiar y pegar nuestra llave pública dentro del archivo `~/.ssh/authorized_keys`.
 
 #### Manejadores de paquetes
 
@@ -51,13 +51,13 @@ Interactuamos con este repositorio (APT) mediante la terminal y el comando `apt`
   - `sudo apt search <nombre-paquete>`	Busca por el paquete `<nombre-paquete>` 
   - `sudo apt show <nombre-paquete>`	Muestra los detalles del paquete `<nombre-paquete>`
 
-[Ejemplo 3: Actualización de índice de paquetes](./Ejemplo-03)
+[Ejercicio 3: Actualización de índice de paquetes](./Ejercicio-03)
 
-[Reto 5: Investiga un paquete interesante e instalalo](./Ejemplo-03)
+[Reto 5: Investiga un paquete interesante e instalalo](./Ejercicio-03)
 
 ##### Manejadores de paquetes en Mac OS y Windows
 
-Siguiendo el ejemplo de la propuesta de los sistemas GNU/Linux, Mac y Windows ahora ofrecen alternativas para administrar la instalación y actualización de programas de manera automática.
+Siguiendo el Ejercicio de la propuesta de los sistemas GNU/Linux, Mac y Windows ahora ofrecen alternativas para administrar la instalación y actualización de programas de manera automática.
 
 **Mac**
 
