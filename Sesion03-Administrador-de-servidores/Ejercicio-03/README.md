@@ -1,21 +1,30 @@
-##### Ejemplo 03
+##### Ejercicio 03
+## Creación de nueva llave SHH
 
-## Actualización del índice de packetes de APT
+### OBJETIVO
+Crear una nueva llave ssh.
 
-### Objetivo
+#### REQUISITOS
 
-Aprender a actualizar el índice de packetes para que cuando instalemos un programa esté en su versión más actualizada.
+Contar con una terminal.
 
-### Requerimientos
-
-- Tener un Sistema Operativo Linux basado en Debian: Ubuntu o Linux Mint
-- Contar con una terminal.
-
-### Desarrollo
-
-1. Correr el comando
-
+### DESARROLLO
+1. Crear llave ssh
 ```
-$ sudo apt update
+ssh-keygen -t rsa -b 4096 -C "escribe_tu_email@ejemplo.com"
 ```
 
+2. Aceptar la carpeta predeterminada para guardar el par (publica/privada) de llaves generadas
+```
+> Enter a file in which to save the key (/home/you/.ssh/id_rsa): [Press enter]
+```
+
+3. Escribir una contraseña para nuestra llave privada (no la vayas a olvidar)
+```
+> Enter passphrase (empty for no passphrase): [Type a passphrase]
+> Enter same passphrase again: [Type passphrase again]
+```
+
+4. Verificar la creación de nuestro nuevo par de llaves [Ejemplo-02](../Ejemplo-02)
+
+_Nota_ Es posible tener varias llaves privadas para una misma computadora

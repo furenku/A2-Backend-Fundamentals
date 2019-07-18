@@ -1,4 +1,4 @@
-##### Ejemplo 01
+##### Ejercicio 01
 ## Verificación de SHH instalado
 
 ### OBJETIVO

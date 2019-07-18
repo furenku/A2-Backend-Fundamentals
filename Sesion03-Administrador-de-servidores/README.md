@@ -20,13 +20,13 @@ Que el alummno entienda el concepto, el valor y los comandos para utilizar el ma
 
 [Ejercicio 2: Buscar si tenemos llaves dentro de la carpeta `~/.ssh`](./Ejercicio-02)
 
-[Reto 1: Crea una nueva llave shh](./Reto-01)
+[Ejercicio 3: Crea una nueva llave shh](./Ejercicio-03)
 
-[Reto 2: Agregar al agent-shh nuestra nueva llave](./Reto-02)
+[Ejercicio 4: Agregar al agent-shh nuestra nueva llave](./Ejercicio-04)
 
-[Reto 3: Agregar nuestra llave pública a nuestra cuenta de Github](./Reto-03)
+[Ejercicio 5: Agregar nuestra llave pública a nuestra cuenta de Github](./Ejercicio-05)
 
-[Reto 4: Crear un repositorio y hacer push usando la configuración SSH](./Reto-04)
+[Ejercicio 6: Crear un repositorio y hacer push usando la configuración SSH](./Ejercicio-06)
 
 Para configurar un servidor a que nos permita hacer autenticación utilizando nuestras llaves SSH es necesario, ingresar al servidor utilizando usuario y password, luego copiar y pegar nuestra llave pública dentro del archivo `~/.ssh/authorized_keys`.
 
@@ -51,9 +51,9 @@ Interactuamos con este repositorio (APT) mediante la terminal y el comando `apt`
   - `sudo apt search <nombre-paquete>`	Busca por el paquete `<nombre-paquete>` 
   - `sudo apt show <nombre-paquete>`	Muestra los detalles del paquete `<nombre-paquete>`
 
-[Ejercicio 3: Actualización de índice de paquetes](./Ejercicio-03)
+[Ejercicio 7: Actualización de índice de paquetes](./Ejercicio-07)
 
-[Reto 5: Investiga un paquete interesante e instalalo](./Ejercicio-03)
+[Reto 1: Investiga un paquete interesante e instalalo](./Ejercicio-08)
 
 ##### Manejadores de paquetes en Mac OS y Windows
 

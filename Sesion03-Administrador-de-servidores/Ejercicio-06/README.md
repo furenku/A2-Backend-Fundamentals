@@ -1,4 +1,4 @@
-##### Reto 03
+##### Ejercicio 6
 ## Crear un repositorio y hacer push usando la configuración SSH
 
 ### OBJETIVO

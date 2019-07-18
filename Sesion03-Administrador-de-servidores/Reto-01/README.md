@@ -1,30 +1,21 @@
-##### Reto 01
-## Creación de nueva llave SHH
+##### Reto 1
+## Investigar un paquete de APT, buscarlo, instalarlo, probarlo.
 
 ### OBJETIVO
-Crear una nueva llave ssh.
+Que el alumno aprenda dónde puede encontrar catálogos de paquetes
+Que pueda instalar un paquete APT
 
 #### REQUISITOS
 
 Contar con una terminal.
+Contar con un explorador de internet
 
-### DESARROLLO
-1. Crear llave ssh
-```
-ssh-keygen -t rsa -b 4096 -C "escribe_tu_email@ejemplo.com"
-```
+#### DESARROLLO
 
-2. Aceptar la carpeta predeterminada para guardar el par (publica/privada) de llaves generadas
-```
-> Enter a file in which to save the key (/home/you/.ssh/id_rsa): [Press enter]
-```
+1. Abre un explorador de internet
+2. Busca paquetes APT interesantes
+3. Escoge uno
+4. Instálalo
+5. Pruébalo
 
-3. Escribir una contraseña para nuestra llave privada (no la vayas a olvidar)
-```
-> Enter passphrase (empty for no passphrase): [Type a passphrase]
-> Enter same passphrase again: [Type passphrase again]
-```
-
-4. Verificar la creación de nuestro nuevo par de llaves [Ejemplo-02](../Ejemplo-02)
-
-_Nota_ Es posible tener varias llaves privadas para una misma computadora
+Tiempo estimado: **10 min**

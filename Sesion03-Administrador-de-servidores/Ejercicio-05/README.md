@@ -1,4 +1,4 @@
-##### Reto 03
+##### Ejercicio 5
 ## Agregar nuestra llave SHH pública a nuestra cuenta de Github
 
 ### OBJETIVO

@@ -1,7 +1,8 @@
-##### Ejemplo 02
-## Comprovación de existencia de llaves SHH
+##### Ejercicio 02
+## Buscar si tenemos llaves dentro de la carpeta `~/.ssh`
 
 ### OBJETIVO
+
 Comprobar la existencia de llaves ssh en la carpeta predeterminada `~/.ssh`.
 
 #### REQUISITOS
