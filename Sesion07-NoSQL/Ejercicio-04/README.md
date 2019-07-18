@@ -32,3 +32,5 @@ sudo mongo
 ```
 
 Para salir presiona las teclas `Ctrl + C` o corriendo el comando `quit()`
+
+Tiempo estimado de explicación: **5 min**

@@ -26,3 +26,5 @@ Puedes concatenar el método `pretty()` para una vista más amable
 ```
 db.users.find({}).pretty()
 ```
+
+Tiempo estimado de explicación: **5 min**

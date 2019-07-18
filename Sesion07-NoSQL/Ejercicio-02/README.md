@@ -38,3 +38,4 @@ md "\data\db"
 sudo mkdir -p /data/db
 ```
 
+Tiempo estimado de explicación: **5 min**

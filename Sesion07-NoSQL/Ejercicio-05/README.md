@@ -5,3 +5,5 @@
 ```
 show dbs
 ```
+
+Tiempo estimado de explicación: **1 min**

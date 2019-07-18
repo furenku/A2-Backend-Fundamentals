@@ -6,12 +6,35 @@ Como mencionamos previamente, no es necesario definir cómo está estructurada u
 
 Se usa el comando `insert` para introducir un nuevo documento a una colección y recibe como parametros un documento. Recuerda que se usa la sintaxis de JSON para esto.
 
-> Es el __standard__ nombrar las colecciones con su nombre en plural
+> Es el __standard__ nombrar las colecciones con su nombre en plural en inglés
+
+**USERS**
 
 ```
-db.users.insert({name: 'John', age: 25})
+db.users.insert({name: 'Juan', age: 25})
 ```
+
+```
+db.users.insert({name: 'Xochitl', age: 27})
+```
+
+```
+db.users.insert({name: 'Brayan', age: 40})
+```
+
+```
+db.users.insert({name: 'Gonzalo', age: 55})
+```
+
 
 > Como puedes ver, la sintaxis de MongoDB es idéntica a la de Javascript
 
-> Accesamos a los subdocumentos con `.` y mandamos paramentros dentro de `(...)` como en las funciones de JS
+> Accesamos a los subdocumentos con `.` y mandamos paramentros dentro de parentesis `(...)` como en las funciones de JS
+
+> Puedes revisar las colecciones que tiene una base de datos corriendo este comando
+
+```
+db.getCollectionNames()
+```
+
+Tiempo estimado de explicación: **10 min**

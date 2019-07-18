@@ -13,3 +13,6 @@ Puedes comprobar en qué base de datos estás trabajando usando esto comando
 ```
 db
 ```
+
+Tiempo estimado de explicación: **2 min**
+

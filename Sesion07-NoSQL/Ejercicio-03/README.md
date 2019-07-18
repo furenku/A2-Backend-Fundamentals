@@ -61,3 +61,5 @@ Cuando el servicio levantó correctamente, debe de estar este mensaje en la Term
 > 27017 es el puerto donde levanta por __default__ el servicio de MongoDB. Puedes usar el parámentro `--port <un puerto>` para levantarlo en un puerto diferente
 
 > **Debes de dejar abierta esta Terminal para que el servicio se mantenga corriendo**
+
+Tiempo estimado de explicación: **10 min**

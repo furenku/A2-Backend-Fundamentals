@@ -1,19 +1,40 @@
 [<-- Regresar](..)
 
-## Insertar un nuevo documento con un arreglo
+## Insertar un nuevo documento con arreglos y objetos
 
-Habíamos mencionado que MongoDB como una base de datos NoSQL de tipo Document Database tenía la capacidad de guardar arreglos en los campos. Veámoslo
+Habíamos mencionado que MongoDB como una base de datos NoSQL de tipo Document Database tenía la capacidad de guardar elementos complejos (no primitivos), como Objetos y Arreglos arreglos en los campos. Veámoslo
 
-> Se puede presionar `Enter` para dar un salto de línea y mejorar la visibilidad del comando que correremos. Solo se correrá cuando todos los paréntesis y llaves estén completos (abran y cierren)
+> Se puede presionar `Enter` para dar un salto de línea y mejorar la visibilidad del comando que correremos. Solo se ejecutará cuando todos los paréntesis y llaves estén completos (abran y cierren)
 
-```
-db.users.insert({
-  name: 'Andrea',
-  age: 27,
-  interests: ['hiking', 'art', 'party']
+**TOURS**
+
+```js
+db.tours.insert({
+  title: 'Escalada en Peña de Bernal',
+  // Objeto en formato JSON
+  startLocation: {
+    latitude: 19.22,
+    longitude: -99.06 
+  }
+  duration: 10,
+  // Arreglo de Objetos
+  itinerary: [
+    {
+      title: 'Desayuno',
+      time: '2019-03-23T09:00:00'
+    },
+    {
+      title: 'Preparación de equipo',
+      time: '2019-03-23T10:00:00'
+    },
+    {
+      title: 'Inicio de ascenso',
+      time: '2019-03-23T11:00:00'
+    }
+  ]
 })
 ```
 
-Vuelve a correr el comando de lectura para revisar cómo se guardo
+Vuelve a correr el comando de lectura y luego prueba encadenándole el método `pretty()` para verificar.
 
-> Como ves, los documentos dentro de una colección no tienen que tener los mismos datos. Esta flexibilidad es la que mencionamos antes
+Tiempo estimado de explicación: **10 min**

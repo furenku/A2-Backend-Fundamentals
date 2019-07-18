@@ -67,3 +67,5 @@ brew install mongodb-community@4.0
 7. Corre el instalador dando doble click en el archivo `.deb`
 8. Se abrirá el asistente de instalación de software. Da click en el botón `Install`
 12. Terminar instalación
+
+Tiempo estimado de explicación: **10 min**
