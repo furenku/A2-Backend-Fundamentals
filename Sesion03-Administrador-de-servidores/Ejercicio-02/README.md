@@ -23,4 +23,4 @@ ls
 
 3. Si existe alguna llave aparecerá en par `<llave>` y `<llave>.pub`
 
-_Nota_ Es posible tener varias llaves privadas para una misma computadora
+__Nota:__ Es posible tener varias llaves privadas para una misma computadora

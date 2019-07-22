@@ -1,4 +1,14 @@
-[<-- Rergresar](../)
+[<-- Regresar](../)
+
+##### Ejercicio 2
+
+## Historias de usario de la aplicación Bedu Travels
+
+### OBJETIVO
+
+Que el alumno entienda la manera de construir Historias de Usuario para levantar requerimientos de una Aplicación Web
+
+### DESARROLLO
 
 ## Historias de usario de la aplicación Bedu Travels
 

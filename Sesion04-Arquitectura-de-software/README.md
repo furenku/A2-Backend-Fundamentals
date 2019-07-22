@@ -68,7 +68,7 @@ A partir de las Historias de Usuario y los Criterios de Aceptación podemos darn
 
 [Ejercicio 4: Algunos Esquemas de Arquitectura de Datos para Bedu Travels](./Ejercicio-04/)
 
-[Reto 3: Dibuja el Esquema de Arquitectura de Datos para la funcionalidad que habías imaginado](./Reto-03/)
+[Reto 3: Redacta otro Esquema de Arquitectura de Datos para alguno de los Recursos](./Reto-03/)
 
 #### Diagramas de Flujo de Interacción
 

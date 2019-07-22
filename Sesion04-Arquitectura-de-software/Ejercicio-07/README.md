@@ -1,4 +1,4 @@
-[<-- Rergresar](../)
+[<-- Regresar](../)
 
 ##  Ejercicio de Programación Funcional ultilizando Javascript
 

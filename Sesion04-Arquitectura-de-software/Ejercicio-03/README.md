@@ -1,6 +1,14 @@
-[<-- Rergresar](../)
+[<-- Regresar](../)
+
+##### Ejercicio 3
 
 ## Criterios de aceptación para Historia de Usuario
+
+### Objetivo
+
+Que el alumno pueda desarrollar Criterios de Aceptación para Historias de Usuario y su valor a la hora de validar que una Historia de Usuario está completamente implementada
+
+### Desarrollo
 
 Cada Historia de Usuario deberá de contener los criterios que tienen que cumplirse para estar completa
 
@@ -8,7 +16,7 @@ Por ejemplo, para la historia de usuario:
 
 > Como USUARIO quiero poder EXPLORAR LOS TOURS para elegir mi siguiente viaje 
 
-### Criterios de aceptación
+#### Criterios de aceptación
 
 **Elementos a mostrar**
 

@@ -1,7 +1,21 @@
-[<-- Rergresar](../)
+[<-- Regresar](../)
 
-## Dibuja el diagrama de Flujo de Interacción para una funcionalidad de tu proyecto
+##### Reto 3
 
-Utiliza la herramienta de diagramación que se ofrece en [draw.io](https://draw.io)
+## Redacta otro Esquema de Arquitectura de Datos para alguno de los Recursos
 
-Tiempo estimado: **15 min**
+### Objetivo 
+
+Que el alumno practique el definir un Esquema de Arquitectura de Datos a partir de una, o varias, Historias de Usuario con sus Criterios de Aceptación. 
+
+### Desarrollo
+
+- Redacta un Esquema de Arquitectura de Datos
+- Agrega estos elementos:
+  - Nombre del Recurso
+  - Para cada Campo
+    - Nombre del campo
+    - Tipo de Dato
+    - Relación con otros Recursos
+
+Tiempo estimado: **10 min**

@@ -56,3 +56,5 @@ $ cat ~/.ssh/id_rsa.pub
 ![](https://help.github.com/assets/images/help/settings/ssh-add-key.png)
 
 12. Es posible que Github pida de nuevo tu password. Escríbelo y presiona `Enter`
+
+__Nota:__ Este ejemplo se realiza en 10 mins

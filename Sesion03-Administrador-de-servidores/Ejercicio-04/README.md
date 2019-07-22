@@ -22,3 +22,5 @@ $ ssh-add ~/.ssh/<tu-nueva-llave>
 ```
 
 _<tu-nueva-llave> sería **id_rsa**_ si escogiste el nombre predeterminado
+
+__Nota:__ Este ejemplo se realiza en 5 mins

@@ -27,4 +27,6 @@ ssh-keygen -t rsa -b 4096 -C "escribe_tu_email@ejemplo.com"
 
 4. Verificar la creación de nuestro nuevo par de llaves [Ejemplo-02](../Ejemplo-02)
 
-_Nota_ Es posible tener varias llaves privadas para una misma computadora
+__Nota:__ Es posible tener varias llaves privadas para una misma computadora. Tienen que tener distinto nombre
+
+__Nota:__ Este ejemplo se realiza en 5 mins o menos.

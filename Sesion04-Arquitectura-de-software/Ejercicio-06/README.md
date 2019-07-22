@@ -1,9 +1,18 @@
-[<-- Rergresar](../)
+[<-- Regresar](../)
+
+##### Ejericio 6
 
 ## Ejemplo de Programación Orientada a Objetos utilizando Javascript
 
+### Objetivo
+
+Que el alumno aprenda a representar Objetos utilizando Javascript y entienda su utilidad a la hora de programar con este paradigma de programación
+
+### Desarrollo
+
 ```js
 let Tour = new Object()
+
 Tour.name = "Escalada en Peña de Bernal"
 Tour.price = "$1000"
 Tour.startDate = "02-03-2019"
