@@ -53,6 +53,8 @@ Interactuamos con este repositorio (APT) mediante la terminal y el comando `apt`
 
 [Ejercicio 7: Actualización de índice de paquetes](./Ejercicio-07)
 
+[Ejercicio 8: Instalación de un paquete utilizando el comando apt](./Ejercicio-8/)
+
 [Reto 1: Investiga un paquete interesante e instalalo](./Ejercicio-08)
 
 ##### Manejadores de paquetes en Mac OS y Windows
