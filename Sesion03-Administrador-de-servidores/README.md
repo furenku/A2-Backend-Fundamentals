@@ -20,9 +20,11 @@ Que el alummno entienda el concepto, el valor y los comandos para utilizar el ma
 
 [Ejercicio 2: Buscar si tenemos llaves dentro de la carpeta `~/.ssh`](./Ejercicio-02)
 
-[Ejercicio 3: Crea una nueva llave shh](./Ejercicio-03)
+[Ejercicio 3: Crea una nueva llave ssh](./Ejercicio-03)
 
-[Ejercicio 4: Agregar al agent-shh nuestra nueva llave](./Ejercicio-04)
+[Ejercicio 4: Agregar al agent-ssh nuestra nueva llave](./Ejercicio-04)
+
+[Reto 1: Accesar al servidor de Github usando ssh ]()
 
 [Ejercicio 5: Agregar nuestra llave pública a nuestra cuenta de Github](./Ejercicio-05)
 
@@ -55,7 +57,9 @@ Interactuamos con este repositorio (APT) mediante la terminal y el comando `apt`
 
 [Ejercicio 8: Instalación de un paquete utilizando el comando apt](./Ejercicio-8/)
 
-[Reto 1: Investiga un paquete interesante e instalalo](./Ejercicio-08)
+[Reto 2: Investiga un paquete interesante e instalalo](./Ejercicio-08)
+
+[Reto 3: Crea una cuenta gratuita en SDF e ingresa a su Unix shell](./Reto-03)
 
 ##### Manejadores de paquetes en Mac OS y Windows
 

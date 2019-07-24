@@ -1,5 +1,5 @@
 ##### Ejercicio 03
-## Creación de nueva llave SHH
+## Creación de nueva llave SSH
 
 ### OBJETIVO
 Crear una nueva llave ssh.
