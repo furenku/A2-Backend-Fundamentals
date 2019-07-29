@@ -57,7 +57,7 @@ Interactuamos con este repositorio (APT) mediante la terminal y el comando `apt`
 
 [Ejercicio 8: Instalación de un paquete utilizando el comando apt](./Ejercicio-8/)
 
-[Reto 2: Investiga un paquete interesante e instalalo](./Ejercicio-08)
+[Reto 2: Instala utilizando apt: NodeJS y su manejador de paquetes npm](./Reto-02)
 
 [Reto 3: Crea una cuenta gratuita en SDF e ingresa a su Unix shell](./Reto-03)
 
@@ -87,3 +87,9 @@ Ej.
 ```
 C:\> choco install docker-desktop
 ```
+
+##### Manejadores de Packetes de NodeJS
+
+El administrador de paquetes facilita a los programadores la publicación y el intercambio del código fuente de las bibliotecas Node.js y está diseñado para simplificar la instalación, actualización y desinstalación de bibliotecas.
+
+[Reto 4: Instala y prueba el packete chalk de NodeJS usando npm](./Reto-04/)

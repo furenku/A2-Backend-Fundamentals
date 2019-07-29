@@ -39,7 +39,6 @@ Deberá aparecer este resultado
                 ||     ||
 ```
 
-
 Tiempo estimado: **5 min**
 
 

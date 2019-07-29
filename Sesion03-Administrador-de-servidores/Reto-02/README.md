@@ -1,9 +1,8 @@
 ##### Reto 2
-## Investigar un paquete de APT, buscarlo, instalarlo, probarlo.
+## Instala via apt NodeJS y su manejador de paquetes npm
 
 ### OBJETIVO
-Que el alumno aprenda dónde puede encontrar catálogos de paquetes
-Que pueda instalar un paquete APT
+Que el alumno aprenda cómo instalar NodeJS utilizando el manejador de packetes APT
 
 #### REQUISITOS
 
@@ -12,10 +11,13 @@ Contar con un explorador de internet
 
 #### DESARROLLO
 
-1. Abre un explorador de internet
-2. Busca paquetes APT interesantes
-3. Escoge uno
-4. Instálalo
-5. Pruébalo
+1. Abre una Terminal de Comandos
+2. Instala los packetes `nodejs` y `npm`
+3. Prueba que los paquetes estén correctamente instalados utilizando estos comandos:
+
+```
+$ node --version
+$ npm --version
+```
 
 Tiempo estimado: **10 min**
