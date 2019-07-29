@@ -2,7 +2,15 @@
 
 ## Instalación de MongoDB
 
-### Instrucciones
+### Objetivo
+
+Que el alumno Aprenda a instalar MongoDB
+
+### Requerimientos
+
+Explorador de internet
+
+### Desarrollo
 
 1. Entra a la [página oficial de descarga de MongoDB](https://www.mongodb.com/download-center/community)
 
@@ -14,9 +22,16 @@
 
 5. Presiona el botón de `Descargar`
  
-(Para Linux y MacOS puedes también agregar las librerías de MongoDB y usar su menajador de paquetes)
+(Para Linux y MacOS puedes también agregar las librerías de MongoDB con su menajador de paquetes)
 
-### Windows
+#### GNU/Linux (Ubuntu)
+
+6. Verifica que descargaste el instalador con terminación `.deb`
+7. Corre el instalador dando doble click en el archivo `.deb`
+8. Se abrirá el asistente de instalación de software. Da click en el botón `Install`
+12. Terminar instalación
+
+#### Windows
 
 6. Verifica que descargaste el instalador con terminación `.msi`
 7. Corre el instalador dando doble click en el archivo `.msi`
@@ -26,7 +41,7 @@
 11. Deja los campos: `Service Name`, `Data Directory` y `Log Directory` como vengan predeterminados.
 12. Terminar instalación
 
-### MacOS
+#### MacOS
 
 Si **no** tienes el manejador de paquetes Homebrew:
 
@@ -61,11 +76,6 @@ brew install mongodb-community@4.0
 ```
 
 
-### GNU/Linux (Ubuntu)
 
-6. Verifica que descargaste el instalador con terminación `.deb`
-7. Corre el instalador dando doble click en el archivo `.deb`
-8. Se abrirá el asistente de instalación de software. Da click en el botón `Install`
-12. Terminar instalación
 
 Tiempo estimado de explicación: **10 min**

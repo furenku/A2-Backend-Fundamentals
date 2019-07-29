@@ -2,7 +2,18 @@
 
 ## Crear una nueva colección insertando un nuevo documento
 
-Como mencionamos previamente, no es necesario definir cómo está estructurada una colección para empezar a insertar en ella. Ni siquiera es necesario crearla, **sólo con insertar un documento la crea**
+### Objetivo
+
+Que el alumno aprenda a crear una colección insertando un documento
+
+### Requerimientos
+
+- Terminal de Comandos
+- Estar dentro del CLI de MongoDB [véase Ejercicio 4](../Ejercicio-04/)
+
+### Desarrollo
+
+Como mencionamos previamente, no es necesario definir cómo está estructurada una colección para empezar a insertar en ella. Ni siquiera es necesario crearla, **sólo con insertar un documento, se crea**
 
 Se usa el comando `insert` para introducir un nuevo documento a una colección y recibe como parametros un documento. Recuerda que se usa la sintaxis de JSON para esto.
 

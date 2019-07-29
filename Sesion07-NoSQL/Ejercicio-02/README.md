@@ -2,9 +2,29 @@
 
 ## Crea carpeta para almacenar bases de datos
 
+### Objetivo
+
+Que el alumno cree una carpeta (indispensable) para guardar ahí los arhicvos de las bases de datos MongoDB
+
+### Requerimientos
+
+Explorador de carpetas
+Terminal de comandos
+
+### Desarrollo
+
 Es necesario crear una carpeta donde nuestras bases de datos serán almacenadas. Por __default__ es `data/db`, aunque puedes definir otra.
 
-### Instrucciones
+#### MacOS & GNU/Linux (Ubuntu)
+
+1. Abre Terminal de Comandos
+2. Crea carpetas `/data/db`
+
+```
+sudo mkdir -p /data/db
+```
+
+Tiempo estimado de explicación: **5 min**
 
 #### Windows
 
@@ -29,13 +49,4 @@ cd C:\
 md "\data\db"
 ```
 
-#### MacOS & GNU/Linux (Ubuntu)
 
-1. Abre Terminal de Comandos
-2. Crea carpetas `/data/db`
-
-```
-sudo mkdir -p /data/db
-```
-
-Tiempo estimado de explicación: **5 min**

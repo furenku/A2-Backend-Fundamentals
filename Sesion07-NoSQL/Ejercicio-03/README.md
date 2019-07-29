@@ -2,28 +2,22 @@
 
 ## Levanta el servicio o __deamon__ de MongoDB
 
+### Objetivo
+
+Que el alumno aprenda a levandar el Deamon de MongoDB
+
+### Requerimientos
+
+Terminal de Comandos
+
+### Desarrollo
+
+
 Un __deamon__ es un servicio que corre sin obstrucciones en bambalinas (__background__)
 
 Para poder accesar al cliente de Terminal de MongoDB (__CLI__), es necesario levandar el servicio o __deamon__
 
-### Instrucciones
 
-#### Windows
-
-1. Abrir el explorador de carpetas
-2. Entrar a la ruta `C:\Program Files\MongoDB\Server\4.0\bin\`
-3. Dar doble click en el archivo `mongod.exe`
-
-o 
-
-1. Abrir Terminal de Comandos
-2. Correr este comando:
-
-```
-"C:\Program Files\MongoDB\Server\4.0\bin\mongod.exe" --dbpath="c:\data\db"
-```
-
-> si quisieras especificar otra carpeta diferente puedes cambiar `data/db` por otra carpeta existente
 
 #### MacOS & GNU/Linux (Ubuntu)
 
@@ -43,12 +37,28 @@ Para para GNU/Linux (Ubuntu) puedes utilizar también el manejador de servicios 
 sudo service mongod start
 ```
 
-Igual MacOS , pero con un camando similar
+Igual MacOS , pero con un comando similar
 
 ```
 brew services start mongodb-community@4.0
 ```
 
+#### Windows
+
+1. Abrir el explorador de carpetas
+2. Entrar a la ruta `C:\Program Files\MongoDB\Server\4.0\bin\`
+3. Dar doble click en el archivo `mongod.exe`
+
+o 
+
+1. Abrir Terminal de Comandos
+2. Correr este comando:
+
+```
+"C:\Program Files\MongoDB\Server\4.0\bin\mongod.exe" --dbpath="c:\data\db"
+```
+
+> si quisieras especificar otra carpeta diferente puedes cambiar `data/db` por otra carpeta existente
 
 <hr>
 
