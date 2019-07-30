@@ -38,7 +38,7 @@ Las ventajas de un buen diseño de arquitectura de software:
 - Contemplar la reusabilidad de otros o nuevos códigos
 - Flexibilidad de evolución
 
-[Ejercicio 1: Diagrama de Arquitectura de Software de Bedu Travels con el stack MERN (Mongo Express React Node)](./Ejercicio-01/)
+[Ejemplo 1: Diagrama de Arquitectura de Software de Bedu Travels con el stack MERN (Mongo Express React Node)](./Ejemplo-01/)
 
 Para poder construir correctamente una Arquitectura de Software adecuada es necesario levantar requerimientos que nos den la mayor cantidad de detalle y especificación. 
 
@@ -50,7 +50,7 @@ Siguiendo los principios de la metodología UX y el Desarrollo Ágil de Programa
 
 Las historias de usuario narran el tipo de **Personas**, las **acciones** que pueden realizar y los **motivos** por los que lo realizarían
 
-[Ejercicio 2: Historias de usario de la aplicación Bedu Travels](./Ejercicio-02/)
+[Ejemplo 2: Historias de usario de la aplicación Bedu Travels](./Ejemplo-02/)
 
 [Reto 1: Imagina y redacta otras 2 Historias de Usuario para Tu proyecto](./Reto-01/)
 
@@ -58,15 +58,15 @@ Las historias de usuario narran el tipo de **Personas**, las **acciones** que pu
 
 Cada Historia de Usuario tiene que tener una lista de criterios o condiciones a cumplir, que permita validar que la funcionalidad está abarcada completa y correctamente. Recomiendo dividrlos en `Elementos a mostrar` y `Comportamiento esperado`
 
-[Ejercicio 3: Criterios de aceptación para Historia de Usuario](./Ejercicio-03/)
+[Ejemplo 3: Criterios de aceptación para Historia de Usuario](./Ejemplo-03/)
 
-[Reto 2: Escribe los Criterios de Aceptación para alguna de las Historias de Usuario que redactaste](./Ejercicio-03/)
+[Reto 2: Escribe los Criterios de Aceptación para alguna de las Historias de Usuario que redactaste](./Ejemplo-03/)
 
 ##### Arquitectura de Datos
 
 A partir de las Historias de Usuario y los Criterios de Aceptación podemos darnos una mejor idea de qué datos y organizados de qué manera tenemos que almacenar en nuestra base de datos para que nuestra aplicación funcione. Para esto generamos Esquemas con los tipos de datos que cada Recurso (Colección o Tabla) que nos imaginemos
 
-[Ejercicio 4: Algunos Esquemas de Arquitectura de Datos para Bedu Travels](./Ejercicio-04/)
+[Ejemplo 4: Algunos Esquemas de Arquitectura de Datos para Bedu Travels](./Ejemplo-04/)
 
 [Reto 3: Redacta otro Esquema de Arquitectura de Datos para alguno de los Recursos](./Reto-03/)
 
@@ -74,7 +74,7 @@ A partir de las Historias de Usuario y los Criterios de Aceptación podemos darn
 
 Para explicar la manera y las condiciones en las que podemos realizar ciertas acciones navegando en la app, utilizamos diagramas de flujo.
 
-[Ejercicio 5: Diagrama de Flujo de Interacción para una Compra de Vuelo en Bedu Travels](./Ejercicio-05/)
+[Ejemplo 5: Diagrama de Flujo de Interacción para una Compra de Vuelo en Bedu Travels](./Ejemplo-05/)
 
 [Reto 4: Dibuja el diagrama de Flujo de Interacción para una funcionalidad de tu proyecto](./Reto-04/)
 
@@ -104,14 +104,14 @@ En cuanto empezamos a utilizar la programación para más ambitos de nuestra vid
 
 Dentro de estos **Objetos** podemos especificar propiedes (características) y métodos (funcionales). A este __molde__ o __plantilla__ de estas especificaciones le llamamos **Clase** y con ella generar multiples **Instancias** de este Objeto.  Y además tienen la capacidad de heredar estas propiedades y métodos a otros objetos por medio de la **herencia**.
 
-[Ejercicio 6: Ejercicio de Programación Orientada a Objetos utilizando Javascript ](./Ejercicio-06/)
+[Ejemplo 6: Ejemplo de Programación Orientada a Objetos utilizando Javascript ](./Ejemplo-06/)
 
 #### Programación Funcional
 
 Tienen su origen siguiendo modelos de fórmulas matemáticas. Están basadas en funciones que siempre regresarán el mismo resultado cuando se le mandan los mismos parámetros.
 
-[Ejercicio 7: Ejercicio de Programación Funcional ultilizando Javascript](./Ejercicio-07/)
+[Ejemplo 7: Ejemplo de Programación Funcional ultilizando Javascript](./Ejemplo-07/)
 
 #### Programación Orientada a Eventos
 
-Cuando exiten eventos que modifican el comportamiento de nuestro programa, por Ejercicio, eventos que recibimos de algún servidor, teclazos o clicks del usuario. Es necesario un paradigma que los tome en cuenta. La Programación Orientada a Eventos nos ayuda a lidiar con estos eventos. 
+Cuando exiten eventos que modifican el comportamiento de nuestro programa, por Ejemplo, eventos que recibimos de algún servidor, teclazos o clicks del usuario. Es necesario un paradigma que los tome en cuenta. La Programación Orientada a Eventos nos ayuda a lidiar con estos eventos. 

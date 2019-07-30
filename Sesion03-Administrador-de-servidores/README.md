@@ -16,19 +16,19 @@ Que el alummno entienda el concepto, el valor y los comandos para utilizar el ma
 
 **SSH** (Secure Shell): Es una herramienta que nos permite abrir una conexión segura y encriptada con otra computadora (o servidor) por medio de una llave pública y una llave privada, permitiendo así autenticar un ingreso (login), correr comandos, recibir respuestas o copiar archivos. 
 
-[Ejercicio 1: Verificar que tenemos ssh instalado](./Ejercicio-01)
+[Ejemplo 1: Verificar que tenemos ssh instalado](./Ejemplo-01)
 
-[Ejercicio 2: Buscar si tenemos llaves dentro de la carpeta `~/.ssh`](./Ejercicio-02)
+[Ejemplo 2: Buscar si tenemos llaves dentro de la carpeta `~/.ssh`](./Ejemplo-02)
 
-[Ejercicio 3: Crea una nueva llave ssh](./Ejercicio-03)
+[Ejemplo 3: Crea una nueva llave ssh](./Ejemplo-03)
 
-[Ejercicio 4: Agregar al agent-ssh nuestra nueva llave](./Ejercicio-04)
+[Ejemplo 4: Agregar al agent-ssh nuestra nueva llave](./Ejemplo-04)
 
 [Reto 1: Accesar al servidor de Github usando ssh ]()
 
-[Ejercicio 5: Agregar nuestra llave pública a nuestra cuenta de Github](./Ejercicio-05)
+[Ejemplo 5: Agregar nuestra llave pública a nuestra cuenta de Github](./Ejemplo-05)
 
-[Ejercicio 6: Crear un repositorio y hacer push usando la configuración SSH](./Ejercicio-06)
+[Ejemplo 6: Crear un repositorio y hacer push usando la configuración SSH](./Ejemplo-06)
 
 Para configurar un servidor a que nos permita hacer autenticación utilizando nuestras llaves SSH es necesario, ingresar al servidor utilizando usuario y password, luego copiar y pegar nuestra llave pública dentro del archivo `~/.ssh/authorized_keys`.
 
@@ -53,17 +53,17 @@ Interactuamos con este repositorio (APT) mediante la terminal y el comando `apt`
   - `sudo apt search <nombre-paquete>`	Busca por el paquete `<nombre-paquete>` 
   - `sudo apt show <nombre-paquete>`	Muestra los detalles del paquete `<nombre-paquete>`
 
-[Ejercicio 7: Actualización de índice de paquetes](./Ejercicio-07)
+[Ejemplo 7: Actualización de índice de paquetes](./Ejemplo-07)
 
-[Ejercicio 8: Instalación de un paquete utilizando el comando apt](./Ejercicio-8/)
+[Ejemplo 8: Instalación de un paquete utilizando el comando apt](./Ejemplo-8/)
 
-[Reto 2: Instala utilizando apt: NodeJS y su manejador de paquetes npm](./Reto-02)
+[Reto 2: Crea una cuenta gratuita en SDF e ingresa a su Unix shell](./Reto-02)
 
-[Reto 3: Crea una cuenta gratuita en SDF e ingresa a su Unix shell](./Reto-03)
+
 
 ##### Manejadores de paquetes en Mac OS y Windows
 
-Siguiendo el Ejercicio de la propuesta de los sistemas GNU/Linux, Mac y Windows ahora ofrecen alternativas para administrar la instalación y actualización de programas de manera automática.
+Siguiendo el Ejemplo de la propuesta de los sistemas GNU/Linux, Mac y Windows ahora ofrecen alternativas para administrar la instalación y actualización de programas de manera automática.
 
 **Mac**
 
@@ -91,5 +91,7 @@ C:\> choco install docker-desktop
 ##### Manejadores de Packetes de NodeJS
 
 El administrador de paquetes facilita a los programadores la publicación y el intercambio del código fuente de las bibliotecas Node.js y está diseñado para simplificar la instalación, actualización y desinstalación de bibliotecas.
+
+[Reto 3: Instala utilizando apt: NodeJS y su manejador de paquetes npm](./Reto-03)
 
 [Reto 4: Instala y prueba el packete chalk de NodeJS usando npm](./Reto-04/)

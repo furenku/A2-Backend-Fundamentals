@@ -1,4 +1,4 @@
-##### Reto 3
+##### Reto 4
 ## Instala y prueba el packete chalk de NodeJS usando npm
 
 ### OBJETIVO
@@ -32,9 +32,9 @@ npm install chalk
 
 > [Aquí](https://www.npmjs.com/package/chalk) puedes leer más sobre cómo utilizar el paquete
 
-3. Crea un archivo nuevo dentro de la misma carpeta con el nombre `chalk-test.js`
+3. Crea un archivo nuevo dentro de la misma carpeta con el nombre `chalk-test.js` utilizando `vim`
 
-4. Edita el contenido del archivo y pon este código:
+4. Edita usando `vim` el contenido del archivo y pon este código:
 
 ```
 const chalk = require('chalk');
@@ -48,8 +48,8 @@ console.log(chalk.blue('Hello world!'));
 node chalk-test.js
 ```
 
-6. Agrega 5 `console.log()` con otros estilos
+6. Agrega 5 `console.log()` con otros estilos que investigues en la [documentación](https://www.npmjs.com/package/chalk)
 
-7. Pruebalos corriendo el archivo 
+7. Pruébalos corriendo el archivo 
 
 Tiempo estimado: **15 min**
