@@ -1,4 +1,4 @@
-##### Reto 2
+##### Reto 3
 ## Instala via apt NodeJS y su manejador de paquetes npm
 
 ### OBJETIVO

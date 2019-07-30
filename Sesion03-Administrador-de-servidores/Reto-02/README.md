@@ -1,4 +1,4 @@
-##### Reto 3
+##### Reto 2
 ## Crea una cuenta gratuita en SDF e ingresa a su Unix shell.
 
 ### OBJETIVO
