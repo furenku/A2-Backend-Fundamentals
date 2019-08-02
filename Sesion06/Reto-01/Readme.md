@@ -11,7 +11,7 @@
    ***
 
 ### DESARROLLO
-1. Descargar la imagen de MariaDB versión 10.3 sólo si no se descargo en el Ejemplo-01, ya que una vez que se ha descargado una imagen de Docker no es necesario volver a hacerlo.
+1. (Opcional) Descargar la imagen de MariaDB versión 10.3 sólo si no se descargo en el Ejemplo-01, ya que una vez que se ha descargado una imagen de Docker no es necesario volver a hacerlo.
 
    __En una terminal ejecutar:__
 
