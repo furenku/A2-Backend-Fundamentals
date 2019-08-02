@@ -3,7 +3,7 @@
 
 ### OBJETIVOS
  - Conocer el proceso para crear un servidor MariaDB haciendo uso de contenedores.
- - Conocer el lenguaje SQL y aplicarlo en la definición y manipulación de datos.
+ - Conocer el lenguaje SQL y aplicarlo en la definición y manipulación de Tablas.
  - Conocer el proceso para definir y manipular una relación uno a muchos con SQL
  - Conocer el proceso para definir y manipular una relación muchos a muchos con SQL
 
