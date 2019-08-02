@@ -52,7 +52,8 @@
 
    __Creando la tabla Libro e imprimiendo la descripción de la tabla:__
    ```sql
-   MariaDB [Biblioteca]> CREATE TABLE ???
+   MariaDB [Biblioteca]> CREATE TABLE Libro (id INTEGER PRIMARY KEY AUTO_INCREMENT, titulo VARCHAR(128), editorial VARCHAR(80), numPag INT, autores INT);
+   Query OK, 0 rows affected (0.046 sec)
 
    MariaDB [Biblioteca]> DESCRIBE Libro;
    +-----------+--------------+------+-----+---------+----------------+
