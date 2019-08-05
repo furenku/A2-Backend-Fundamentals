@@ -37,7 +37,7 @@
    __Realizando conexión al servidor haciendo uso de los contenedores:__
 
    ```console
-   Sesion06/Ejemplo-02 $ docker exec -it pythonsql mysql -hlocalhost -uBiblioteca -p Biblioteca
+   Sesion06/Ejemplo-02 $ docker exec -it servidorsql mysql -hlocalhost -uBiblioteca -p Biblioteca
    Enter password:
    Welcome to the MariaDB monitor.  Commands end with ; or \g.
    Your MariaDB connection id is 13

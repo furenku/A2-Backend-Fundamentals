@@ -38,12 +38,12 @@
    ```
    ***
 
-1. (Opcional) Debido a que un sólo servidor de base de datos MariaDB es capáz de manejar dos o más bases de datos no es necesario crear otro servidor sólo para la BD de Bedutravels, pero si deseas ejercitar el procedimiento puede iniciar un nuevo servidor de MariaDB 10.3 creando un contenedor Docker llamado __bedutravels__ (--name) y asignando una clave __pythonsql__ (MYSQL_ROOT_PASSWORD) al usuario __root__
+1. (Opcional) Debido a que un sólo servidor de base de datos MariaDB es capáz de manejar dos o más bases de datos no es necesario crear otro servidor sólo para la BD de Bedutravels, pero si deseas ejercitar el procedimiento puede iniciar un nuevo servidor de MariaDB 10.3 creando un contenedor Docker llamado __bedutravels__ (--name) y asignando una clave __servidorsql__ (MYSQL_ROOT_PASSWORD) al usuario __root__
 
    __Ejecutar comandos en terminal:__
 
    ```console
-   Sesion06/Reto-01 $ docker run --name bedutravels -e MYSQL_ROOT_PASSWORD=pythonsql -d mariadb:10.3
+   Sesion06/Reto-01 $ docker run --name bedutravels -e MYSQL_ROOT_PASSWORD=servidorsql -d mariadb:10.3
    Unable to find image 'mariadb:10.3' locally
    10.3: Pulling from library/mariadb
    Digest: sha256:182b47379bf7...
@@ -66,10 +66,10 @@
 
    - __Host:__ localhost
    - __User:__ root
-   - __Pass:__ pythonsql
+   - __Pass:__ servidorsql
 
    ```console
-   Sesion06/Reto-01 $ docker exec -i pythonsql mysql -hlocalhost -uroot -ppythonsql < bedutravels.sql
+   Sesion06/Reto-01 $ docker exec -i servidorsql mysql -hlocalhost -uroot -pservidorsql < bedutravels.sql
 
    Sesion06/Reto-01 $
    ```
@@ -85,7 +85,7 @@
    - __Base de datos:__ BeduTravels
 
   ```console
-  Sesion06/Reto-01 $ docker exec -it pythonsql mysql -hlocalhost -uBeduTravels -p BeduTravels
+  Sesion06/Reto-01 $ docker exec -it servidorsql mysql -hlocalhost -uBeduTravels -p BeduTravels
   Enter password:
   Welcome to the MariaDB monitor.  Commands end with ; or \g.
   Your MariaDB connection id is 9

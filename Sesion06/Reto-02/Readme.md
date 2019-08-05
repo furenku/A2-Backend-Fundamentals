@@ -35,7 +35,7 @@
    __Conexión a la base de datos BeduTravels__
 
    ```console
-   Sesion06/Reto-02 $ docker exec -it pythonsql mysql -hlocalhost -uBeduTravels -p BeduTravels
+   Sesion06/Reto-02 $ docker exec -it servidorsql mysql -hlocalhost -uBeduTravels -p BeduTravels
    Enter password:
    Welcome to the MariaDB monitor.  Commands end with ; or \g.
    Your MariaDB connection id is 13

@@ -63,12 +63,12 @@
    5. Un Servidor puede atender a uno o más Clientes
    ***
 
-1. Iniciando un servidor de MariaDB 10.3 creando un contenedor Docker llamado __pythonsql__ (--name) y asignando una clave __pythonsql__ (MYSQL_ROOT_PASSWORD) al usuario __root__
+1. Iniciando un servidor de MariaDB 10.3 creando un contenedor Docker llamado __servidorsql__ (--name) y asignando una clave __servidorsql__ (MYSQL_ROOT_PASSWORD) al usuario __root__
 
    __Ejecutar comandos en terminal:__
 
    ```console
-   Sesion06/Ejemplo-01 $ docker run --name pythonsql -e MYSQL_ROOT_PASSWORD=pythonsql -d mariadb:10.3
+   Sesion06/Ejemplo-01 $ docker run --name servidorsql -e MYSQL_ROOT_PASSWORD=servidorsql -d mariadb:10.3
    Unable to find image 'mariadb:10.3' locally
    10.3: Pulling from library/mariadb
    Digest: sha256:182b47379bf7...
@@ -82,18 +82,18 @@
 1. Se consiguen los datos para conectarse al servidor MariaDB:
    - __Host:__ localhost (?)
    - __User:__ root
-   - __Pass:__ pythonsql
+   - __Pass:__ servidorsql
 
    La conexión se realiza mediante el comando `mysql` de la siguiente manera:
    ```console
-   mysql -hlocalhost -uroot -ppythonsql
+   mysql -hlocalhost -uroot -pservidorsql
    ```
    sólo que el comando `mysql` no está instalado en nuestro sistema operativo y si se ejecuta se obtendrá un mensaje de error a menos que se tenga instalado el cliente de MySQL anticipadamente, así que haremos uso de la imagen descargada de MariaDB.
    ***
 
 1. Para inicializar la base de datos se ejecuta el comando `mysql` pero desde el contenedor de Docker con el siguiente comando:
    ```console
-   Sesion06/Ejemplo-01 $ docker exec -i pythonsql mysql -hlocalhost -uroot -ppythonsql < biblioteca.sql
+   Sesion06/Ejemplo-01 $ docker exec -i servidorsql mysql -hlocalhost -uroot -pservidorsql < biblioteca.sql
 
    Sesion06/Ejemplo-01 $
    ```
@@ -109,7 +109,7 @@
    - __Base de datos:__ Biblioteca
 
   ```console
-  Sesion06/Ejemplo-01 $ docker exec -it pythonsql mysql -hlocalhost -uBiblioteca -p Biblioteca
+  Sesion06/Ejemplo-01 $ docker exec -it servidorsql mysql -hlocalhost -uBiblioteca -p Biblioteca
   Enter password:
   Welcome to the MariaDB monitor.  Commands end with ; or \g.
   Your MariaDB connection id is 9
