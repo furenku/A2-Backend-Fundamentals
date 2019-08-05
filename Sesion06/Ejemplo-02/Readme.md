@@ -38,7 +38,7 @@
    __Realizando conexión al servidor haciendo uso de los contenedores:__
 
    ```console
-   Sesion06/Ejemplo-02 $ docker exec -it pythonsql mysql -hlocalhost -uBiblioteca -p Biblioteca
+   Sesion06/Ejemplo-02 $ docker exec -it servidorsql mysql -hlocalhost -uBiblioteca -p Biblioteca
    Enter password:
    Welcome to the MariaDB monitor.  Commands end with ; or \g.
    Your MariaDB connection id is 13
@@ -79,11 +79,11 @@
 1. La base de datos se borró o no se creó adecuadamente se puede iniciarlizar la base de datos trás ejecutar el siguiente comando:
 
    ```console
-   Sesion06/Ejemplo-02 $ docker exec -i pythonsql mysql -hlocalhost -uroot -ppythonsql < sql/biblioteca.sql
+   Sesion06/Ejemplo-02 $ docker exec -i servidorsql mysql -hlocalhost -uroot -pservidorsql < sql/biblioteca.sql
    ```
 
 1. Si la tabla __Libro__ no se creó por alguna razón o se ha creado de forma erronea, entonces se puede ejecutar el siguiente comando para restaurar la tabla __Libro__:
 
    ```console
-   Sesion06/Ejemplo-02 $ docker exec -i pythonsql mysql -hlocalhost -uroot -ppythonsql < sql/tabla-libro.sql
+   Sesion06/Ejemplo-02 $ docker exec -i servidorsql mysql -hlocalhost -uroot -pservidorsql < sql/tabla-libro.sql
    ```
