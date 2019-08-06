@@ -121,3 +121,11 @@
    +-----------+---------+------------+-------------+--------------+
    1 row in set (0.000 sec)
    ```
+
+### POR SI ACASO
+En la carpeta `sql/` existe los archivos que se pueden usar para restarurar la base de datos o las tablas, según sea el caso como se menciona a continuación.
+
+  - `bedutravels.sql` Permite crear nuevamente la base de datos y el usuario de acceso en caso de ser necesario.
+  - `tabla-lugar.sql` Permite colocar la tabla Lugar a su estado inicial
+  - `tabla-usuario.sql` Permite colocar la tabla Usuario a su estado inicial
+  - `tablas-final.sql` Permite colocar todas las tablas en el estado final del reto para poder continuar.
