@@ -18,6 +18,12 @@
 - CRUD de datos con SQL en MariaDB
   - [Ejemplo 03](Ejemplo-03)
   - [Reto 03](Reto-03)
+- Definiendo y agregando datos a una relación muchos a muchos con SQL
+  - [Ejemplo 04](Ejemplo-04)
+  - [Reto 04](Reto-04)
+- Definiendo una consulta de datos en una relación muchos a muchos con SQL
+  - [Ejemplo 05](Ejemplo-05)
+  - [Reto 05](Reto-05)
 - Actualizando el modelo entidad-relación con nuevos requerimientos
   - [Proyecto](Proyecto)
 
