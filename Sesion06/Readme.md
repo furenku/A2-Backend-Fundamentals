@@ -26,5 +26,5 @@
   - [Proyecto](Proyecto)
 
 ### POSTWORK
- - Obtener el diagrama del modelo entidad-relación normalizado para proyecto personal.
+ - Validar la base de datos de tú Proyecto por medio de operaciones CRUD SQL a todas las tablas del modelo.
    - [Ver lineamientos](Postwork)
