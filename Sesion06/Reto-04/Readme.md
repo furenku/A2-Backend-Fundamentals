@@ -15,7 +15,7 @@
 
 1. Modelo de entidad-relación:
 
-   ![Diagrama entidad-relación](modelo-entidad-relacion.jpg)
+   ![Diagrama entidad-relación](assets/bedutravels-modelo-er.jpg)
 
 1. Carpeta de repo actualizada
 1. Usar la carpeta de trabajo `Sesion06/Reto-04`
