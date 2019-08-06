@@ -1,67 +1,48 @@
-[`Backend Fundamentals`](../../Readme.md) > [`Sesión 05`](../Readme.md) > Proyecto
-## Actualizando el modelo entidad-relación con nuevos requerimientos
+[`Backend con Python`](../../Readme.md) > [`Sesión 06`](../Readme.md) > Proyecto
+## Definiendo una consulta de datos en una relación muchos a muchos con SQL
 
 ### OBJETIVO
-Dados nuevos requerimientos, actualizar el diagrama del modelo entidad-relación de la base de datos para el proyecto BeduTravels.
+- Realizar una consulta de datos a dos o más tablas para el proyecto BeduTravels
+- Hacer uso de la instrucción JOIN
 
-#### REQUISITOS
-1. Descripción del proyecto:
+### REQUISITOS
+1. Modelo de entidad-relación:
 
-   Un cliente requiere de una aplicación web que permita a un usuario buscar un destino para agendar un viaje.
+   ![Diagrama entidad-relación](assets/bedutravels-modelo-er.jpg)
 
-   El usuario deberá poder ver una lista de los lugares más populares, así como poder ordenar o filtrar los destinos por costo.
+1. Carpeta de repo actualizada
+1. Usar la carpeta de trabajo `Sesion06/Proyecto`
 
-   El usuario deberá poder ver la información del viaje y contar con la opción de poder elegir el viaje, así como ajustar algunas otras opciones del mismo.
 
-1. Modelo de entidad-relación anterior:
+### DESARROLLO
+1. Mostrar la lista de todas las reservas realizadas incluyendo el nombre del origen, destino, fecha de salida, fecha de regreso y nombre de usuario.
 
-   ![Diagrama entidad-relación anterior](assets/modelo-entidad-relacion-inicial.jpg)
+   __Conectándose a la base de datos:__
 
-1. Nuevos requerimientos.
+    ```console
+    Sesion06/Proyecto $ docker exec -it -e LANG=C.UTF-8 servidorsql mysql -hlocalhost -uBeduTravels -pBeduTravels BeduTravels
+    [...]
+    MariaDB [BeduTravels]>
+    ```
 
-   El Cliente requiere que la aplicación web muestre la lista de todos los viajes reservados para poderles dar seguimiento, la lista debe de incluir los datos que se muestran en la siguiente imagen:
+   __Realizando la consulta haciendo uso del mítico JOIN:__
 
-   ![Lista de viajes reservados](assets/lista-viajes-reservados.png)
+   ```sql
+   SELECT Lugar.nombre, Destino.nombre, fechaSalida, fechaRegreso, Usuario.nombre FROM Reserva JOIN Usuario ON Usuario.id=idUsuario JOIN Viaje ON idViaje=Viaje.id JOIN Lugar ON idOrigen=Lugar.id JOIN Lugar as Destino ON idDestino=Destino.id;
+   +--------+-------------+-------------+--------------+--------+
+   | nombre | nombre      | fechaSalida | fechaRegreso | nombre |
+   +--------+-------------+-------------+--------------+--------+
+   | CDMX   | Guadalajara | 2019-06-05  | 2019-06-12   | Daisy  |
+   +--------+-------------+-------------+--------------+--------+
+   1 row in set (0.000 sec)
+   ```
 
-   Cada Usuario puede realizar una o más reservaciones, cada reservación está relacionada con un sólo viaje y un viaje está definido por un origen, un destino y un costo.
+   __Notas:__
+   1. En apariencia es un proyecto muy corto, pero considerar que los alumnos tienen que realizar análisis y relacionar las tablas y construir las relaciones mediante JOIN's.
+   1. Aunque aquí se espera la consulta final, en caso de ser necesario, una buena práctica es ir construyendo paso a paso la consulta partiendo de la tabla Reserva.
 
-   Para obtener el costo de una reservación, se multiplica el costo del viaje por el número de personas.
+### POR SI ACASO
+En la carpeta `sql/` existe los archivos que se pueden usar para restarurar la base de datos o las tablas, según sea el caso como se menciona a continuación.
 
-#### DESARROLLO
-1. Determinar si hay nuevas tablas a incluir, se buscan sustantivos:
-
-   __Descripcón:__
-
-   >El Cliente requiere que la aplicación web muestre la __lista__ de todos los viajes reservados para poderles dar __seguimiento__, la lista debe de incluir los __datos__ que se muestran en la siguiente imagen:
-
-   >Cada Usuario puede realizar una o más reservaciones, cada reservación está relacionada con un sólo __viaje__ y un viaje está definido por un `origen`, un `destino` y un `costo`.
-
-   >Para obtener el `costo` de una reservación, se multiplica el costo del viaje por el número de personas.
-
-   Las nuevas posibles tablas son __Lista__, __Seguimiento__, __Datos__, pero Lista es algo que se va a genrar y no a almacenar, lo mismo sucede con los datos, así que la única tabla nueva posible es __Seguimiento__, pero se menciona que se usará la lista para dar seguimiento, así que no es algo que se tenga que almacenar en la aplicación.
-
-   __Indicar si existen nuevas tablas y cuales son:__
-
-   No hay nuevas tablas a agregar.
-
-1. Determinar si hay cambio en los atributos de cada una de las tablas.
-
-   __Nota:__ Hacer uso de las siguiente información:
-   - Requerimientos originales
-   - Nuevos requerimientos
-   - Lista de viajes reservados mostrada en la imagen
-
-   __Indicar si existe cambios en los atributos y cuales son por cada tabla:__
-
-   ![Tablas y sus atributos](assets/tablas-atributos.png)
-   ***
-
-1. Ahora toca encontrar la __cardinalidad__ entre las tablas y en caso de contar con una relación muchos a muchos romperla usando el proceso de normalización:
-
-   ![Definir relaciones y aplicar normalización](assets/modelo-entidad-relacion-normalizado.png)
-   ***
-
-1. El paso final es más de estrategia y consiste en reacomodar el diagrama, colocando a la izquierda la tablas con cardinalidades fijas y a la derecha las tablas con cardinalidades muchos.
-
-   ![Re acomodo](modelo-entidad-relacion.png)
-   ***
+  - `bedutravels.sql` Permite crear nuevamente la base de datos y el usuario de acceso en caso de ser necesario.
+  - `tablas-inicial.sql` Permite colocar todas las tablas en el estado inicial del proyecto para poder ejecutar las consultas.
