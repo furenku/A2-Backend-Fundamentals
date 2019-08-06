@@ -1,4 +1,4 @@
-[`Backend Fundamentals`](../Readme.md) > [`Sesión 06`](../Readme.md) > Ejemplo-03
+[`Backend Fundamentals`](../../Readme.md) > [`Sesión 06`](../Readme.md) > Ejemplo-03
 ## CRUD de datos con SQL en MariaDB
 
 ### OBJETIVO
