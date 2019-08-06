@@ -1,77 +1,32 @@
-[`Backend Fundamentals`](../../Readme.md) > [`Sesión 05`](../Readme.md) > Postwork
-## Obtener el diagrama del modelo entidad-relación normalizado para proyecto personal.
+[`Backend Fundamentals`](../../Readme.md) > [`Sesión 06`](../Readme.md) > Postwork
+## Validar la base de datos de tú Proyecto por medio de operaciones CRUD SQL a todas las tablas del modelo.
 
 ### OBJETIVOS
-- Obtener el diagrama con la lista de tablas y atributos.
-- Obtener el diagrama del modelo de la base de datos incluyendo las relaciones entre tablas.
-- Normalizar el modelo entidad-relación
-- Actualizar el modelo entidad-relación
+- Crear las tablas en SQL con MariaDB para tú Proyecto
+- Realizar operaciones CRUD con SQL a todas las tablas del modelo
+- Dado un formulario web agregar los datos a las tablas correspondientes con SQL para tú Proyecto
+- Realizar una consulta de datos a dos o más tablas para tú Proyecto
 
 ### REQUISITOS
-1. Contar con la descripción del proyecto, preferentemente en no más de una cuartilla.
+1. Contar con el modelo de tú Proyecto, no decesariamente terminado, pero cuando menos con 3 tablas definidas
 
-1. Contar con bosquejos de las páginas principales del proyecto como puede ser página de inicio, pagina de reportes, página de consulta del usuario o páginas que muestren la iteracción del usuario con la aplicación web. De una a tres páginas estaría bien, pero no más de cinco.
+1. Contar con bosquejos de una o más páginas de tú Proyecto donde existan formularios o donde el usuario proporcione información.
 
-1. Usar la carpeta de trabajo `Sesion05/Postwork`
-
-   ```console
-   $ cd Sesion05/Postwork
-
-   Sesion05/Postwork $
-   ```
+1. Usar la carpeta de trabajo `Sesion06/Postwork`
 
 ### DESARROLLO
-1. Determinar las tablas a incluir, se buscan sustantivos:
+1. Inicializar la base de datos para tú Proyecto
 
-   __Descripcón:__
+1. Obtener los datos de conexión para la base de datos
 
-   Marcando sustantivos en la descripción del proyecto
+1. Crear cada una de las tablas de tú modelo por medio de SQL
 
-   __Listar las posibles tablas:__
+1. Agregar datos a cada una de las tablas, esto ayuda a validar que las tablas están bien definidas.
 
-   [Tú lista de tablas]
+1. Agregar datos a las tablas que estén relacionadas con algun formulario, esto ayuda a validar que el modelo está bien diseñado.
 
-   __Analizando cada tabla para dejar una lista reducida:__
+1. Realizar la o las consultas que crea pertienentes, en base a los resultados o reportes que sean necesario mostrar en las páginas de tú Proyecto.
 
-   [Tú lista reducida de tablas]
-   ***
-
-1. Determinar los atributos de cada una de las tablas.
-
-   __Nota:__ Hacer uso de las siguiente información:
-   - Requerimientos o descripción del proyecto
-   - Páginas definidas
-
-   __Diagrama con tablas y sus atributos:__
-
-   [Tú Diagrama]
-   ***
-
-1. Encontrar la __cardinalidad__ entre las tablas y en caso de contar con una relación muchos a muchos romperla usando el proceso de normalización:
-
-   __Diagrama de tablas y sus relaciones normalizado:__
-
-   [Tú Diagrama]
-   ***
-
-1. Reacomodar el diagrama, colocando a la izquierda la tablas con cardinalidades fijas y a la derecha las tablas con cardinalidades muchos.
-
-   __Diagrama ordenado:__
-
-   [Tú Diagrama]
-   ***
-
-1. Evaluar si el modelo entidad-relación es capáz de soportar el flujo de información mostrado en las páginas web definidas.
-
-   __¿Los datos dinámicos de la página de inicio es soportada por el modelo entidad-relación?__
-
-   Si sí, entonces el modelo se queda tal como está y pasar a la siguiente página.
-
-   Si no, entonces __actualizar__ el modelo entidad-relación para que pueda soportar la información de esta página.
-
-   __Nota:__ Este proceso se puede repetir creando varios modelos hasta contar con un modelo que sea capáz de soportar el flujo de datos de todas las páginas.
-
-   __Diagrama del modelo entidad-relación actualizado:__
-
-   [Tú Diagrama]
-   ***
+__Notas:__
+- Si al momento de estar realizando cualquier paso se nota que el modelo de la base de datos está incompleto o no es el adecuado, no dude en modificarlo para que se ajuste a las necesidades del Proyecto y es válido realizarlo durante todos los pasos de esta sesión.
+- Cuando modifiques tu modelo, guarda la versión anterior, porque a veces funciona mejor que la modificada.
