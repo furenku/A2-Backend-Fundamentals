@@ -18,9 +18,13 @@
 - CRUD de datos con SQL en MariaDB
   - [Ejemplo 03](Ejemplo-03)
   - [Reto 03](Reto-03)
-- Actualizando el modelo entidad-relación con nuevos requerimientos
+- Definiendo y agregando datos a una relación muchos a muchos con SQL
+  - [Ejemplo 04](Ejemplo-04)
+  - [Reto 04](Reto-04)
+- Definiendo una consulta de datos en una relación muchos a muchos con SQL
+  - [Ejemplo 05](Ejemplo-05)
   - [Proyecto](Proyecto)
 
 ### POSTWORK
- - Obtener el diagrama del modelo entidad-relación normalizado para proyecto personal.
+ - Validar la base de datos de tú Proyecto por medio de operaciones CRUD SQL a todas las tablas del modelo.
    - [Ver lineamientos](Postwork)
