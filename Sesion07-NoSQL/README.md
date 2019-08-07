@@ -1,3 +1,4 @@
+
 # NoSQL y MongoDB
 
 ## OBJETIVOS
@@ -82,31 +83,49 @@ JOIN = $lookup o embedded docuemnts
 
 #### Comandos básicos
 
-> Los siguientes ejemplos se correrán en el Cliente (CLI) de MongoDB 
+> Los siguientes ejemplos se correrán dentro del Cliente (CLI) de MongoDB 
+
+##### Configuración de base de datos a usar
 
 [Ejemplo 5: Mostrar bases de datos existentes](./Ejemplo-05/)
 
 [Ejemplo 6: Cambiar/Crear base de datos](./Ejemplo-06/)
 
+##### Inserción y creación
+
 [Ejemplo 7: Crear una nueva colección insertando un nuevo documento](./Ejemplo-07/)
 
-[Ejemplo 8: Ejecutar un __query__ para leer todos documentos de una colección](./Ejemplo-8/)
+[Reto 1: Crea una nueva base de datos con una nueva colección e inserta 3 documentos](./Reto-01)
 
-[Ejemplo 9: Insertar un nuevo documento con un arreglo](./Ejemplo-09/)
+[Ejemplo 8: Insertar un nuevo documento con un campo con un arreglo](./Ejemplo-08/)
 
-[Ejemplo 10: Insertar un nuevo documento con un anidación de objetos](./Ejemplo-10/)
+[Ejemplo 9: Insertar un nuevo documento con un campo con un subdocumento](./Ejemplo-9/)
+
+[Reto 2: Agrega 3 documentos con campos con arreglos y objetos](./Reto-02/)
+
+##### Lectura y filtrado
+
+[Ejemplo 10: Ejecutar un __query__ para leer todos documentos de una colección](./Ejemplo-10/)
 
 
 [Ejemplo 11: Ejecutar un __query__ para leer filtrando documentos de una colección](./Ejemplo-11/)
 
+[Reto 3: Ejecuta un query para filtrar usando como condición la pertenencia a un arreglo](Reto-03)
+
+[Reto 4: Filtra los documentos según un campo en un subdocumento](./Reto-04)
+
+##### Modificación y eliminación de documentos
+
 [Ejemplo 12: Modificar, según cierta condición, uno o varios documentos de una colección](./Ejemplo-12/)
+
+[Reto 5: Modifica un documento de tu colección](./Reto-05)
 
 [Ejemplo 13: Borrar, según cierta condición, uno o varios documentos de una colección](./Ejemplo-13/)
 
-#### Retos
+##### Referencias / Relaciones
 
-[Reto 1: Crea una nueva base de datos con una nueva colección e inserta un documento](./Reto-01)
+[Ejemplo 14: Agregar un documento con un campo que haga referencia a otro documento](./Ejemplo-14)
 
-[Reto 2: Agrega otra colección e inserta un documento que tenga una campo que haga referencia al ObjectId de la primera colección](./Reto-02)
+[Reto 6: Agrega otra colección e inserta un documento que tenga una campo que haga referencia al ObjectId de la primera colección](./Reto-06)
 
-[Reto 3: Averigua en la documentación de MongoDB cómo hacer un __query__ para introducir el documento que hace referencia, en el resultado (similar a un JOIN en SQL)](./Reto-03)
+[Reto 7: Averigua en la documentación de MongoDB cómo hacer un __query__ para introducir el documento que hace referencia, en el resultado (similar a un JOIN en SQL)](./Reto-07)
