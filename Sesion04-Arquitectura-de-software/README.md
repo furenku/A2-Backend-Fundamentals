@@ -42,6 +42,8 @@ Las ventajas de un buen diseño de arquitectura de software:
 
 Para poder construir correctamente una Arquitectura de Software adecuada es necesario levantar requerimientos que nos den la mayor cantidad de detalle y especificación. 
 
+[Para indagar más en el tema de Arquitectura de Software, recomendamos hacer el curso del tema en Platzi como Postwork](./Postwork/)
+
 ##### Levantamiento de requerimientos
 
 Siguiendo los principios de la metodología UX y el Desarrollo Ágil de Programación, recomendamos levantar los requerimientos juntando los siguientes elementos paulatinamente:
