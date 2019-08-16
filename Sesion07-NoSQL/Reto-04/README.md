@@ -15,4 +15,9 @@
 
 1. Ejecuta el comando find filtrando con un valor perteneciente a campo de un subdocumento
 
+```
+db.tours.find({puntos: {salida: 'Metro Taxqueña'}})
+```
+
+
 tiempo aproximado **5 min**
