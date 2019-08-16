@@ -106,17 +106,17 @@ Firebase es un servicio de Google. De entre todas escogimos Firebase por su ampl
 
 #### Configurar Base de Datos
 
-[Ejemplo 2: Configurar Database de Firebase](./Ejemplo-02/)
-[Ejemplo 3: Crea una nueva Collection y agrega primer Documento ](./Ejemplo-03/)
-[Reto 1: Agrega otros 3 Documentos a Collection](./Reto-01/)
-[Reto 2: Agrega otra Collection y agrégale 3 Documentos](./Reto-02/)
-[Ejemplo 4: Consulta con un query en Javascript los datos de tu Database](./Ejemplo-04)
-[Reto 3: Haz una nueva consulta a la otra Collection](./Reto-03)
-[Ejemplo 5: Agrega usando Javascript un documento a Collection](./Ejemplo-05)
-[Reto 4: Haz una nueva inserción a la otra Collection](./Reto-04)
+[Ejemplo 2: Configurar Database de Firebase](./Ejemplo-02/)  
+[Ejemplo 3: Crea una nueva Collection y agrega primer Documento ](./Ejemplo-03/)  
+[Reto 1: Agrega otros 3 Documentos a Collection](./Reto-01/)  
+[Reto 2: Agrega otra Collection y agrégale 3 Documentos](./Reto-02/)  
+[Ejemplo 4: Consulta con un query en Javascript los datos de tu Database](./Ejemplo-04)  
+[Reto 3: Haz una nueva consulta a la otra Collection](./Reto-03)  
+[Ejemplo 5: Agrega usando Javascript un documento a Collection](./Ejemplo-05)  
+[Reto 4: Haz una nueva inserción a la otra Collection](./Reto-04)  
 
 #### Autenticación
 
-[Ejemplo 6: Agrega Email como método de Autenticación](./Ejemplo-06/)
-[Reto 5: Agrega y configura otro método de Autenticación](./Reto-05/)
+[Ejemplo 6: Agrega Email como método de Autenticación](./Ejemplo-06/)  
+[Reto 5: Agrega y configura otro método de Autenticación](./Reto-05/)  
 
