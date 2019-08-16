@@ -15,4 +15,9 @@
 
 1. Ejecuta el comando find filtrando con un valor perteneciente a un elemento de un arreglo
 
+```
+db.tours.find({tags: 'naturaleza'})
+```
+
+
 tiempo aproximado **5 min**

@@ -16,4 +16,21 @@
 1. Define el nombre de una nueva colección
 2. Ejecuta el comando insert para 3 nuevos documentos
 
+
+```
+db.users.insert({name: 'Pedro', age: 25})
+```
+
+```
+db.users.insert({name: 'Ana', age: 27})
+```
+
+```
+db.users.insert({name: 'María', age: 40})
+```
+
+```
+db.users.insert({name: 'Pepe', age: 55})
+```
+
 tiempo aproximado **5 min**
