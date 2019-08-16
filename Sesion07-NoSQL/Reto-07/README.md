@@ -19,16 +19,5 @@
 
 1. Averigua en la documentación de MongoDB cómo hacer un __query__ para introducir el documento que hace referencia, en el resultado (similar a un JOIN en SQL)
 
-```
-db.users.aggregate([
-   { $lookup: { 
-      from: "tours",
-      localField: "favTours",
-      foreignField: "_id",
-      as: "favToursDetail"
-    } }
-])
-```
-
 
 tiempo aproximado **15 min**

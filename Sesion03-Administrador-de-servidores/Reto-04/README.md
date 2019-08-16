@@ -13,22 +13,9 @@ Contar con una terminal.
 1. Abre una Terminal de Comandos
 2. Crea una carpeta nueva en una locación de tu elección
 
-```
-mkdir <carpeta>
-```
-
 3. Ingresa a la carpeta
 
-
-```
-cd <carpeta>
-```
-
-2. Corre este comando
-
-```
-npm install chalk
-```
+4. Instala el paquete `chalk` usando `npm`
 
 > [Aquí](https://www.npmjs.com/package/chalk) puedes leer más sobre cómo utilizar el paquete
 
@@ -43,10 +30,6 @@ console.log(chalk.blue('Hello world!'));
 ```
 
 5. Corre el archivo utilizando el comando `node`
-
-```
-node chalk-test.js
-```
 
 6. Agrega 5 `console.log()` con otros estilos que investigues en la [documentación](https://www.npmjs.com/package/chalk)
 
