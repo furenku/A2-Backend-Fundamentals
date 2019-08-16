@@ -58,7 +58,6 @@
    ```
    ***
 
-
 1. Realizar las operaciones necesarias para que la tabla de __Usuario__ contenga los siguientes registros:
 
    __Ejecutar en shell de MariaDB:__
