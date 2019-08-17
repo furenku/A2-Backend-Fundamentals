@@ -93,7 +93,7 @@
 
 1. Para inicializar la base de datos se ejecuta el comando `mysql` pero desde el contenedor de Docker con el siguiente comando:
    ```console
-   Sesion06/Ejemplo-01 $ docker exec -i servidorsql mysql -hlocalhost -uroot -pservidorsql < biblioteca.sql
+   Sesion06/Ejemplo-01 $ docker exec -it servidorsql mysql -h localhost -u root -p servidorsql 
 
    Sesion06/Ejemplo-01 $
    ```
@@ -109,7 +109,7 @@
    - __Base de datos:__ Biblioteca
 
   ```console
-  Sesion06/Ejemplo-01 $ docker exec -it servidorsql mysql -hlocalhost -uBiblioteca -p Biblioteca
+  Sesion06/Ejemplo-01 $ docker exec -it servidorsql mysql -h localhost -u Biblioteca -p Biblioteca
   Enter password:
   Welcome to the MariaDB monitor.  Commands end with ; or \g.
   Your MariaDB connection id is 9
