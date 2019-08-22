@@ -1,0 +1,19 @@
+`Backend Fundamentals`
+
+## Módulo: Backend Fundamentals
+
+### OBJETIVOS
+ - Comprender los conceptos basicos que constituyen el backend.
+ - Conocer las herramientas necesarias para desarrollar Aplicaciones Backend.
+ - Conocer los conceptos de basicos y intermedios de las bases de datos.
+
+### ORGANIZACIÓN DE MÓDULO
+
+ - [Sesión 1](Sesion-01): 1. Docker
+ - [Sesión 2](Sesion-02): 2. Consola y VIM
+ - [Sesión 3](Sesion-03): 3. Administrador de servidores
+ - [Sesión 4](Sesion-04): 4. Arquitectura de software y patrones
+ - [Sesión 5](Sesion-05): 5. Fundamento de bases de datos y SQLite
+ - [Sesión 6](Sesion-06): 6. MySQL/MariaDB
+ - [Sesión 7](Sesion-07): 7. NoSQL
+ - [Sesión 8](Sesion-08): 8. BaaS
