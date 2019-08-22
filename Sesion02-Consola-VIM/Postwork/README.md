@@ -12,8 +12,8 @@
 
 Bienvenido al postwork de la sesión, en este postwork vamos a realizar customizaciones de nuestra terminal y de VIM dentro de ella.
 
-1. Sigue el siguiente tutorial y modifica tu terminal según tus preferencias. 
-    * [Customiza tu terminal](https://ubunlog.com/customiza-tu-terminal-en-ubuntu/)
+1. Sigue el siguiente tutorial y modifica tu terminal según tus preferencias.
+   * [Customiza tu terminal](https://ubunlog.com/customiza-tu-terminal-en-ubuntu/)
 
 1. Para personalizar la configuración de Vim, debemos editar el fichero vimrc situado en la ruta
 ```
@@ -26,9 +26,10 @@ En este fichero podemos añadir nuestra propia configuración al final del mismo
 |set number|Provee a nuestro editor de una numeración a todas las líneas del fichero
 syn on|Agrega colores dependiendo del tipo de fichero
 set ts=n|Establece una indentación de n caracteres
-set nobackup|Evita que se guarden copias en bufer
+set nobackup|Evita que se guarden copias en búfer
 
-Una vez añadidos los cambios al fichero vimrc, guardaríamos y ya tendríamos lista nuestra configuración en vim.
-	
+Una vez añadidos los cambios al fichero vimrc, guardaremos y ya tendríamos lista nuestra configuración en vim.
+    
 * [Customiza VIM](https://intervia.com/doc/instalar-y-configurar-vim/)
- 
+
+
