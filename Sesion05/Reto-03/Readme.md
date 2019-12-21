@@ -29,14 +29,14 @@ Dados los requerimientos de un proyecto y sus tablas obtener un diagrama entidad
 
    __Respuesta__
 
-   Es una relación de muchos a muchos y en la notación __pata de gallo__ se representa de la siguiente forma:
+   Es una relación de ??? a ??? y en la notación __pata de gallo__ se representa de la siguiente forma:
 
-   ![Solución](assets/relaciones-muchos-muchos-02.jpg)
+   ![Diagrama relación con muchos a muchos](assets/relaciones-muchos-muchos-02.jpg)
    ***
 
-1. Aplica el proceso de  __normalización__ a la relación muchos a muchos obtenido anteriormente:
+1. Aplica el proceso de  __normalización__ a la relación muchos a muchos obtenido anteriormente eliminando la relación muchos a muchos y agregando una tercer tabla:
 
-   ![Normalización paso 1](assets/relaciones-muchos-muchos-03.jpg)
+   ![Diagrama agregando tercer tabla](assets/relaciones-muchos-muchos-03.jpg)
 
    La tercer tabla se construye de la siguiente forma:
    1. El nombre de la tabla en este caso tiene un nombre peculiar que se conoce cono __Reserva__
@@ -46,10 +46,10 @@ Dados los requerimientos de un proyecto y sus tablas obtener un diagrama entidad
 
 1. Definir las relaciones entre la tercer tabla y las tablas iniciales, además también se mueven los atributos de __fechaSalida__, __fechaRegreso__ y __costo__ desde la tabla de __Viaje__.
 
-   ![Normalización paso 2](assets/relaciones-muchos-muchos-04.jpg)
+   ![Diagrama agregando relaciones](assets/relaciones-muchos-muchos-04.jpg)
    ***
 
-1. El paso final es más de estrategia y consiste en reacomodar el diagrama, se recomienda colocar a la izquierda la tablas con cardinalidades fijas y a la derecha las tablas con cardinalidades muchos.
+1. El paso final es más de estrategia y consiste en re acomodar el diagrama, se recomienda colocar a la izquierda la tablas con cardinalidades fijas y a la derecha las tablas con cardinalidades muchos.
 
-   ![Normalización paso 3](modelo-entidad-relacion.jpg)
+   ![Diagrama modelo entidad-relación final](modelo-entidad-relacion.jpg)
    ***

@@ -31,7 +31,6 @@
 
    ![Tabla Libro](assets/tabla-libro.jpg)
 
-
 ### DESARROLLO
 1. La creación de tablas en SQL se realiza por medio de la instrucción __CREATE TABLE__ y a continuación se muestra la forma de usarla para crear la tabla __Libro__ en la base de datos __Bibllioteca__:
 

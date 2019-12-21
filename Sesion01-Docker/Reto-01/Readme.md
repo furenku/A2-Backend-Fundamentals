@@ -17,12 +17,5 @@ $ docker search ¿¿??
 
 Si necesitas ayuda lee el [Ejemplo 2](Ejemplo-02)
 
-## Solución
-
-```
-$ docker search ubuntu
-$ docker pull ubuntu
-$ docker images
-```
 
 __Nota:__ Este ejemplo se realiza en 10 mins o menos.

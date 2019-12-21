@@ -13,11 +13,6 @@ Contar con un explorador de internet
 
 1. Abre una Terminal de Comandos
 2. Instala los packetes `nodejs` y `npm`
-3. Prueba que los paquetes estén correctamente instalados utilizando estos comandos:
-
-```
-$ node --version
-$ npm --version
-```
+3. Prueba que los paquetes estén correctamente instalados
 
 Tiempo estimado: **10 min**

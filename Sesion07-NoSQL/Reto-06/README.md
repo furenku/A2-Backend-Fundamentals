@@ -18,13 +18,6 @@
 
 1. Agrega un nuevo documento que haga referencia al documento de otra colección 
 
-(haz primero un find de tours para obtener una _id)
 
-```
-db.user.insert({
-  name: 'Octavio',
-  favTours: ObjectId(<_id>)
-})
-```
 
 tiempo aproximado **5 min**

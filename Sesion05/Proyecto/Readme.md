@@ -32,17 +32,17 @@ Dados nuevos requerimientos, actualizar el diagrama del modelo entidad-relación
 
    __Descripcón:__
 
-   >El Cliente requiere que la aplicación web muestre la __lista__ de todos los viajes reservados para poderles dar __seguimiento__, la lista debe de incluir los __datos__ que se muestran en la siguiente imagen:
+   >El Cliente requiere que la aplicación web muestre la de todos los viajes reservados para poderles dar seguimiento, la lista debe de incluir los datos que se muestran en la siguiente imagen:
 
-   >Cada Usuario puede realizar una o más reservaciones, cada reservación está relacionada con un sólo __viaje__ y un viaje está definido por un `origen`, un `destino` y un `costo`.
+   >Cada Usuario puede realizar una o más reservaciones, cada reservación está relacionada con un sólo viaje y un viaje está definido por un origen, un destino y un costo.
 
-   >Para obtener el `costo` de una reservación, se multiplica el costo del viaje por el número de personas.
+   >Para obtener el costo de una reservación, se multiplica el costo del viaje por el número de personas.
 
-   Las nuevas posibles tablas son __Lista__, __Seguimiento__, __Datos__, pero Lista es algo que se va a genrar y no a almacenar, lo mismo sucede con los datos, así que la única tabla nueva posible es __Seguimiento__, pero se menciona que se usará la lista para dar seguimiento, así que no es algo que se tenga que almacenar en la aplicación.
+   Las nuevas posibles tablas son ???
 
    __Indicar si existen nuevas tablas y cuales son:__
 
-   No hay nuevas tablas a agregar.
+   ???
 
 1. Determinar si hay cambio en los atributos de cada una de las tablas.
 
@@ -58,10 +58,10 @@ Dados nuevos requerimientos, actualizar el diagrama del modelo entidad-relación
 
 1. Ahora toca encontrar la __cardinalidad__ entre las tablas y en caso de contar con una relación muchos a muchos romperla usando el proceso de normalización:
 
-   ![Definir relaciones y aplicar normalización](assets/modelo-entidad-relacion-normalizado.png)
+   ![Diagrama de relaciones normalizado](assets/modelo-entidad-relacion-normalizado.png)
    ***
 
 1. El paso final es más de estrategia y consiste en reacomodar el diagrama, colocando a la izquierda la tablas con cardinalidades fijas y a la derecha las tablas con cardinalidades muchos.
 
-   ![Re acomodo](modelo-entidad-relacion.png)
+   ![Diagrama re acomodado](modelo-entidad-relacion.png)
    ***

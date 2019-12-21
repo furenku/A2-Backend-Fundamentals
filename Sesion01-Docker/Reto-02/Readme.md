@@ -23,10 +23,4 @@ $ docker run ¿¿??
 
 Si necesitas ayuda lee el [Ejemplo 3](Ejemplo-03)
 
-## Solución
-
-```
-$ docker run -it --name imagenUbuntu ubuntu 
-```
-
 __Nota:__ Este ejemplo se realiza en 15 mins o menos.
